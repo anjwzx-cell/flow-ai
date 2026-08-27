@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFCF0;
+  --foreground: #000000;
+  --primary: #00005E;
+  --primary-foreground: #FFFCF0;
+  --secondary: #000000;
+  --secondary-foreground: #FFFCF0;
+  --accent: #00005E;
+  --accent-foreground: #FFFCF0;
+  --muted: #E5E5E5;
+  --muted-foreground: #666666;
+  --border: #000000;
+  --card: #FFFCF0;
+  --card-foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-compact: -apple-system, BlinkMacSystemFont, "SF Compact", "SF Compact Display", "SF Compact Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "SF Mono Text", "SF Mono Display", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
